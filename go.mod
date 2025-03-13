@@ -1,7 +1,6 @@
 module github.com/SanmerDev/rules
 
-go 1.22
-toolchain go1.23.7
+go 1.23
 
 require (
 	github.com/sagernet/sing v0.6.3
