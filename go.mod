@@ -3,15 +3,15 @@ module github.com/SanmerDev/rules
 go 1.24
 
 require (
-	github.com/sagernet/sing v0.6.5
-	github.com/sagernet/sing-box v1.11.6
+	github.com/sagernet/sing v0.6.6-0.20250406121928-926a5a1e8bb7
+	github.com/sagernet/sing-box v1.11.7
 	gopkg.in/yaml.v3 v3.0.1
 )
 
 require (
 	github.com/kr/text v0.2.0 // indirect
 	github.com/miekg/dns v1.1.63 // indirect
-	github.com/sagernet/sing-dns v0.4.0 // indirect
+	github.com/sagernet/sing-dns v0.4.1 // indirect
 	go4.org/netipx v0.0.0-20231129151722-fdeea329fbba // indirect
 	golang.org/x/mod v0.24.0 // indirect
 	golang.org/x/net v0.37.0 // indirect
