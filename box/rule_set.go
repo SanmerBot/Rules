@@ -43,22 +43,22 @@ func processPath(value string) clash.Rule {
 	return clash.NewProcess(value, "", false)
 }
 
-func static[T any](raw badoption.Listable[T], new func(T) clash.Rule) clash.RuleSet {
-	rules := make([]clash.Rule, len(raw))
-	for i, r := range raw {
-		rules[i] = new(r)
-	}
-
-	return rules
-}
-
-func dynamic[T any](raw badoption.Listable[T], new func(T) (clash.Rule, error)) clash.RuleSet {
+func dynamic[T comparable](raw badoption.Listable[T], new func(T) (clash.Rule, error)) clash.RuleSet {
 	var rules []clash.Rule
 	for _, r := range raw {
 		v, _ := new(r)
 		if v != nil {
 			rules = append(rules, v)
 		}
+	}
+
+	return rules
+}
+
+func static[T comparable](raw badoption.Listable[T], new func(T) clash.Rule) clash.RuleSet {
+	rules := make([]clash.Rule, len(raw))
+	for i, r := range raw {
+		rules[i] = new(r)
 	}
 
 	return rules
