@@ -25,8 +25,8 @@ github.com/sagernet/quic-go v0.49.0-beta.1 h1:3LdoCzVVfYRibZns1tYWSIoB65fpTmrwy+
 github.com/sagernet/quic-go v0.49.0-beta.1/go.mod h1:uesWD1Ihrldq1M3XtjuEvIUqi8WHNsRs71b3Lt1+p/U=
 github.com/sagernet/sing v0.6.6 h1:3JkvJ0vqDj/jJcx0a+ve/6lMOrSzZm30I3wrIuZtmRE=
 github.com/sagernet/sing v0.6.6/go.mod h1:ARkL0gM13/Iv5VCZmci/NuoOlePoIsW0m7BWfln/Hak=
-github.com/sagernet/sing-box v1.11.7 h1:H3/fxaNvue1GYciz1Iq/VbfkiRCZRuRUO1yjVTLQEg0=
-github.com/sagernet/sing-box v1.11.7/go.mod h1:iPA+z1tIMGSsiw5GGN+6Oeroc/pMcSCQm6pASDJltcM=
+github.com/sagernet/sing-box v1.11.8 h1:yaBRYCoRixSVxKJETrEu1Ul2ZZCNasOJflrMOxhLRBg=
+github.com/sagernet/sing-box v1.11.8/go.mod h1:zyJWioN4bQlYgjBGxAY5LSzgMT2y8aEvJ34ga5ignDA=
 github.com/sagernet/sing-dns v0.4.1 h1:nozS7iqpxZ7aV73oHbkD/8haOvf3XXDCgT//8NdYirk=
 github.com/sagernet/sing-dns v0.4.1/go.mod h1:dweQs54ng2YGzoJfz+F9dGuDNdP5pJ3PLeggnK5VWc8=
 github.com/stretchr/testify v1.10.0 h1:Xv5erBjTwe/5IxqUQTdXv5kgmIvbHo3QQyRwhJsOfJA=
